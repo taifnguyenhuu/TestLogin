@@ -1,0 +1,43 @@
+.navbar {
+  height: 50px;
+  background-color: #4eb09b;
+  display: flex;
+  justify-content: center;
+}
+
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+}
+.imgVN {
+  height: 23px;
+  width: 23px;
+}
+.iconQuestion {
+  height: 18px;
+  width: 18px;
+  margin: 0 20px;
+}
+.navButton {
+  margin-left: 10px;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: #003580;
+}
